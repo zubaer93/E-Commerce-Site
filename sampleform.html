@@ -1,0 +1,20 @@
+<form action="FormToEmail.php" method = 'post'>
+	<h3 style = 'color:#00688B' class="form-signin-heading">Send your mail here. We will contact with you soon.</h3>
+	<div class="form-group">
+		<label style = 'color:#00688B' for='name'>Name</label>
+		<input type = "text" name = "name" class="form-control" placeholder="Name" required autofocus>
+	</div>
+											
+	<div class="form-group">
+		<label style = 'color:#00688B' for='email'>Email</label>
+		<input type = "text" name = "email" class="form-control" placeholder=" Your email address" required >
+	</div>
+							
+	<div class="form-group">
+		<label style = 'color:#00688B' for='address'>Message</label>
+		<textarea class='form-control' name = 'comments'  id='comment' placeholder="Type your mail here" required></textarea>
+	</div>
+
+							
+	<button type='submit' class='btn btn-info' name = "update">Send Mail</button>		
+</form>	
